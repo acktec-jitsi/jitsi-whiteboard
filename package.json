@@ -1,0 +1,36 @@
+{
+  "name": "etherdraw",
+  "description": "Collaborative drawing and sketching in real time",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/JohnMcLear/draw.git"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "version": "0.1.2",
+  "engines": {
+    "node": ">=0.12.x"
+  },
+  "dependencies": {
+    "async": "~0.6.2",
+    "canvas": "1.2.1",
+    "cookies": "",
+    "express": "~3.5.1",
+    "jsonld-cli": "^0.3.0",
+    "jsonld-request": "^0.2.0",
+    "jsonminify": "~0.2.3",
+    "kurento-client": "Kurento/kurento-client-js",
+    "minimist": "^1.1.1",
+    "node": "^6.17.1",
+    "paper": "^0.12.11",
+    "path": "^0.12.7",
+    "redis": "",
+    "socket.io": "~1.0.0",
+    "ueberDB": "~0.2.1",
+    "ws": "~0.7.2"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
+}
